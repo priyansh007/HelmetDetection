@@ -14,7 +14,7 @@ for index,item in enumerate(query):
             "q": item,
             "tbm": "isch",
             "ijn": str(i),
-            "api_key": "1de6c81396a7fabf3da1c3100234e561e6f4225a22fc6d6974d278e262ba8ff9"
+            "api_key": ""
         }
         search = GoogleSearch(params)
         results = search.get_dict()
