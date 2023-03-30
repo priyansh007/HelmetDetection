@@ -1,44 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Image Upload Example&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Link to Bootstrap CSS file --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="my-4"&gt;Upload an Image&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;form<span class="Apple-converted-space">  </span>action="{{ url_for('imageClassiffication') }}" method="post" enctype="multipart/form-data"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="form-group"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;label for="image"&gt;Select an image:&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">          </span>&lt;input type="file" class="form-control-file" id="image" name="image" accept="image/*"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;button type="submit" class="btn btn-primary"&gt;Upload&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">      </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">    </span></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Link to Bootstrap JS file --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"</p>
-<p class="p1"><span class="Apple-converted-space">        </span>integrity="sha384-XXXXXXX"</p>
-<p class="p1"><span class="Apple-converted-space">        </span>crossorigin="anonymous"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
+  <head>
+    <title>Image Upload Example</title>
+    <!-- Link to Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4">Upload an Image</h1>
+      <form  action="{{ url_for('imageClassiffication') }}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="image">Select an image:</label>
+          <input type="file" class="form-control-file" id="image" name="image" accept="image/*">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </form>
+    </div>
+    
+    <!-- Link to Bootstrap JS file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-XXXXXXX"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
