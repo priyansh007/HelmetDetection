@@ -15,7 +15,7 @@ else:
   app = Flask(__name__, static_url_path=base_url + 'static')
 
 API_URL = "https://api-inference.huggingface.co/models/pzalavad/AiCampHelmet"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": ""}
 
 
 def query(filename):
