@@ -45,8 +45,12 @@ Model has been deployed in Hugging face - https://huggingface.co/pzalavad/AiCamp
 
 ## Step7: Create simple website and consume model using Flask
 
-Template/Index.html contains simple html page which have content to upload an image. This image can be processed by Main.py and can be used to solve the classification problem.
+Checkout simple website explaining whole project and detecting helmets of picture. Some screenshots are provided below,
+Repl: https://computer-vision-module-priyanshzalavad.2023-instructor-crash-course.repl.co/
+![Screen Shot 2023-04-13 at 11 07 53 PM](https://user-images.githubusercontent.com/28559153/231955700-e230fef7-30cd-4809-b054-d9fb5c068df0.png)
+![Screen Shot 2023-04-13 at 11 08 23 PM](https://user-images.githubusercontent.com/28559153/231955718-47df8f27-4630-4605-9aaa-97638ff1edf0.png)
+![Screen Shot 2023-04-13 at 11 08 44 PM](https://user-images.githubusercontent.com/28559153/231955732-6d253103-65ff-47cb-9c3f-176b9c38e670.png)
 
-![Screen Shot 2023-03-30 at 4 12 38 PM](https://user-images.githubusercontent.com/28559153/228984943-e65703f8-a9f1-4ff8-a833-6b8cc24f5324.png)
+
 
 
