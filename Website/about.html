@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Helmet detector about</title>
+        <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">COMPUTER VISION PROJECT</span>
+                <span class="site-heading-lower">Helmet Detector</span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Product</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section about-heading">
+            <div class="container">
+                <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="static/assets/img/four.jpeg" alt="..." />
+                <div class="about-heading-content">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-10 mx-auto">
+                            <div class="bg-faded rounded p-5">
+                                <h2 class="section-heading mb-4">
+                                    <span class="section-heading-upper">Helmet detector</span>
+                                    <span class="section-heading-lower">About Our project</span>
+                                </h2>
+                                <p>The HelmetDetection project is a complete end-to-end machine learning classification project that detects helmets in images. The project's main objective was to create and deploy a machine learning model using images scraped from the internet. The project provides hands-on experience using popular tools such as Roboflow, Hugging Face, and Flask.<br><br>
+
+                                To generate the dataset, the project used SerpApi from the Googlesearch module to scrape images from the internet. A Python script called Image_scrap.py was used to download the images, which were saved in the SerpApi_images folder. The dataset was then labeled using Roboflow, which helped to efficiently and accurately label the images.<br><br>
+
+                                After labeling, the dataset was pre-processed by dividing it into a 70-20-10 train-val-test split and resized to 224x224 dimensions. Augmentation was also applied to generalize the model. The pre-processed dataset was uploaded to Hugging Face using the Helmet_model.ipynb file.<br><br>
+
+                                The model was then trained using ViTForImageClassification from the transformers module, achieving a 95% training accuracy with 0.25 validation loss. The model was deployed in Hugging Face using the Helmet_model.ipynb file and is available at https://huggingface.co/pzalavad/AiCampHelmet for use in various platforms.<br><br>
+
+                                Finally, a simple website was created, and the model was consumed using Flask to showcase its effectiveness in detecting helmets in images. This project highlights the power and practicality of machine learning in real-world applications, and the use of popular tools such as Roboflow, Hugging Face, and Flask demonstrates the versatility of machine learning.<br><br>
+                                </p>
+
+                            </div><br>
+                            <div class="intro-button mx-auto text-center"><a class="btn btn-primary btn-xl" href="https://github.com/priyansh007/HelmetDetection">Github link</a></div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-5">
+            <div class="container"><p class="m-0 small">Copyright &copy; Priyansh Zalavadiya 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/scripts.js"></script>
+    </body>
+</html>
